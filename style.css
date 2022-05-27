@@ -72,6 +72,23 @@ body {
     top: 0rem;
 }
 
+.mobile-device-view {
+    position: relative;
+}
+
+.device-border {
+    margin-bottom: 5rem;
+    width: 250px;
+    min-height: 450px;
+    position: absolute;
+    top: 2.5rem;
+    left: 45%;
+    border: 8px solid white;
+    border-radius: 30px;
+    overflow-x: hidden;
+    background-color: var(--light-grayish-violet);
+}
+
 @media(max-width:900px) {
     .flex-container {
         display: flex;
@@ -110,6 +127,11 @@ body {
         left: -3.5rem;
         top: 0rem;
     }
+
+    .device-border {
+        top: 2.5rem;
+        left: 40%;
+    }
 }
 
 
@@ -143,5 +165,18 @@ body {
         border-radius: 0 0 50% 50%;
         left: -3.5rem;
         top: 0rem;
+    }
+
+    .device-border {
+        margin-bottom: 5rem;
+        width: 250px;
+        min-height: 450px;
+        position: absolute;
+        top: 2.5rem;
+        left: 20%;
+        border: 8px solid white;
+        border-radius: 30px;
+        overflow-x: hidden;
+        background-color: var(--light-grayish-violet);
     }
 }
