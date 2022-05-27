@@ -99,6 +99,46 @@ body {
     left: 70px;
 }
 
+.mobile-top-navbar {
+    background: linear-gradient(to right, var(--light-violet), var(--light-magenta)) center center / cover;
+    display: flex;
+    padding: 1.1rem .8rem .5rem .8rem;
+    color: white;
+    align-items: center;
+    width: 100%;
+}
+
+.user-info {
+    display: flex;
+}
+
+.user-info .image {
+    width: 30px;
+    margin: auto .8rem;
+}
+
+.user-info .image img {
+    width: 100%;
+    border: white 3px solid;
+    border-radius: 50%;
+}
+
+.user-info .description h3 {
+    font-weight: 700;
+    font-size: 15px;
+    margin-bottom: 2px;
+}
+
+.user-info .description p {
+    font-size: 10px;
+    color: var(--pale-violet);
+}
+
+.left-dotted-icon{
+    position : absolute;
+    right :18px;
+}
+
 @media(max-width:900px) {
     .flex-container {
         display: flex;
