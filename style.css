@@ -89,6 +89,16 @@ body {
     background-color: var(--light-grayish-violet);
 }
 
+.device-top-white-bg {
+    width: 100px;
+    height: 10px;
+    z-index: 100;
+    position: absolute;
+    background-color: white;
+    border-radius: 0 0 15px 15px;
+    left: 70px;
+}
+
 @media(max-width:900px) {
     .flex-container {
         display: flex;
