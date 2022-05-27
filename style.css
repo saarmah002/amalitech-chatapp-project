@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;700&display=swap');
+
 :root {
     --pale-violet: hsl(276, 100%, 81%);
     --moderate-violet: hsl(276, 55%, 52%);
@@ -134,9 +136,124 @@ body {
     color: var(--pale-violet);
 }
 
-.left-dotted-icon{
-    position : absolute;
-    right :18px;
+.left-dotted-icon {
+    position: absolute;
+    right: 18px;
+}
+
+.discussion {
+    padding: 5px 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.discussion p {
+    background-color: #ede5f0;
+    border-radius: 9px;
+    width: 8.2rem;
+    font-size: 9px;
+    margin-bottom: 5px;
+}
+
+.other {
+    margin-bottom: 5px;
+}
+
+.me {
+    margin-bottom: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.me p {
+    width: 135px;
+    background-color: white;
+    padding: 5px;
+    color: var(--desaturated-dark-violet);
+}
+
+.me p.small {
+    width: fit-content;
+}
+
+.me p.image {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: transparent;
+    width: 130px;
+    padding: 0;
+}
+
+.me p.image img {
+    width: 40px;
+    border-radius: 9px;
+}
+
+p.price {
+    position: relative;
+    width: 11rem;
+    background: linear-gradient(to left, var(--light-violet), var(--light-magenta)) center center / cover;
+    color: white;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+}
+
+p.price i {
+    font-size: 20px;
+    color: var(--very-light-magenta);
+}
+
+p.price .p {
+    color: hsl(270, 20%, 96%);
+    margin-left: 10px;
+}
+
+p.price .num {
+    font-weight: 700;
+    font-size: 15px;
+    position: absolute;
+    right: 10px;
+}
+
+form {
+    background-color: white;
+    margin: 0 15px 15px 15px;
+    border-radius: 30px;
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+input {
+    -webkit-appearance: none;
+    border: none;
+    background-color: transparent;
+    padding: 15px 15px;
+}
+
+textarea,
+input {
+    outline: none;
+}
+
+input:hover,
+input:focus,
+input:active,
+input:checked,
+input {
+    border: none;
+}
+
+form i {
+    position: absolute;
+    right: 15px;
+    color: white;
+    background-color: var(--very-dark-desaturated-violet);
+    padding: 10px;
+    border-radius: 50%;
 }
 
 @media(max-width:900px) {
