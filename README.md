@@ -1,5 +1,5 @@
 # Chat App Frontend Project
-This a portfolio project, demonstrating a simple responsive page containing and 
+This is a portfolio project, demonstrating a simple responsive page containing an 
 interactive chat interface and some text.
 
 View the project via the link below:
