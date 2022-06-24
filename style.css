@@ -108,6 +108,7 @@ body {
     color: white;
     align-items: center;
     width: 100%;
+    border-radius: 0 0 5% 5%;
 }
 
 .user-info {
@@ -158,11 +159,16 @@ body {
 .other {
     margin-bottom: 5px;
     color: var(--chat-text-voilet);
+
+}
+.other p {
+    border-radius: 10px 10px 10px 4px;
 }
 
 .other-text {
     padding: 5px;
     line-height: 1.5;
+    
 }
 #message-field{
     opacity: 30%;
@@ -180,11 +186,13 @@ body {
     background-color: white;
     padding: 5px;
     color: var(--desaturated-dark-violet);
+    border-radius: 9px 9px 2px 9px;
+
 }
 
 .me p.small {
     width: fit-content;
-    color: EEE5F4
+    
 }
 
 .me p.image {
@@ -343,10 +351,10 @@ form i {
 
     .chat-side-bg {
         position: absolute;
-        height: 95vh;
+        height: 85vh;
         width: 60%;
-        background: linear-gradient(to top, var(--light-violet) 60%, var(--light-magenta));
-        border-radius: 0 0 50% 50%;
+        background: linear-gradient(to top, #973BFE, #B93EFF);
+        border-radius: 0 0 100% 20%;
         left: -3.5rem;
         top: 0rem;
     }
